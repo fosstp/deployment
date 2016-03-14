@@ -1,0 +1,7 @@
+---
+- name: Upgrade system to latest packages
+  hosts: fosstp
+  tasks:
+    - name: upgrade packages
+      apt: "upgrade=safe update_cache=yes"
+
