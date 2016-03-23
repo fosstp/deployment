@@ -2,8 +2,6 @@
 - src: evannook.sysbase
 - src: evannook.percona
 - src: evannook.nginx
-- src: evannook.php
-- src: evannook.phpfpmapp
 - src: evannook.python
 - src: evannook.uwsgi
 - src: evannook.wsgiapp

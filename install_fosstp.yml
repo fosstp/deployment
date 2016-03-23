@@ -1,0 +1,7 @@
+---
+- hosts: fosstp
+  remote_user: root
+  roles:
+    - evannook.percona
+    - evannook.wsgiapp
+    - fosstp
